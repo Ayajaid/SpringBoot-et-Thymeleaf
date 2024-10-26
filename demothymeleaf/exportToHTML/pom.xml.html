@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>pom.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #000000; font-style: italic;}
+.s1 { color: #0000ff; font-weight: bold;}
+.s2 { color: #000000;}
+.s3 { color: #008000; font-weight: bold;}
+.s4 { color: #000000;}
+.s5 { color: #000080; font-weight: bold;}
+.s6 { color: #808080; font-style: italic;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+pom.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s3">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s3">=&quot;UTF-8&quot;</span><span class="s0">?&gt;</span>
+&lt;<span class="s5">project </span><span class="s1">xmlns</span><span class="s3">=&quot;http://maven.apache.org/POM/4.0.0&quot; </span><span class="s1">xmlns:xsi</span><span class="s3">=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span>
+		 <span class="s1">xsi:schemaLocation</span><span class="s3">=&quot;http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd&quot;</span>&gt;
+	&lt;<span class="s5">modelVersion</span>&gt;4.0.0&lt;/<span class="s5">modelVersion</span>&gt;
+	&lt;<span class="s5">parent</span>&gt;
+		&lt;<span class="s5">groupId</span>&gt;org.springframework.boot&lt;/<span class="s5">groupId</span>&gt;
+		&lt;<span class="s5">artifactId</span>&gt;spring-boot-starter-parent&lt;/<span class="s5">artifactId</span>&gt;
+		&lt;<span class="s5">version</span>&gt;3.3.5&lt;/<span class="s5">version</span>&gt;
+		&lt;<span class="s5">relativePath</span>/&gt; <span class="s6">&lt;!-- lookup parent from repository --&gt;</span>
+	&lt;/<span class="s5">parent</span>&gt;
+	&lt;<span class="s5">groupId</span>&gt;ma.thymeleaf.dem&lt;/<span class="s5">groupId</span>&gt;
+	&lt;<span class="s5">artifactId</span>&gt;demothymeleaf&lt;/<span class="s5">artifactId</span>&gt;
+	&lt;<span class="s5">version</span>&gt;0.0.1-SNAPSHOT&lt;/<span class="s5">version</span>&gt;
+	&lt;<span class="s5">name</span>&gt;demothymeleaf&lt;/<span class="s5">name</span>&gt;
+	&lt;<span class="s5">description</span>&gt;Demo project for Spring Boot&lt;/<span class="s5">description</span>&gt;
+	&lt;<span class="s5">url</span>/&gt;
+	&lt;<span class="s5">licenses</span>&gt;
+		&lt;<span class="s5">license</span>/&gt;
+	&lt;/<span class="s5">licenses</span>&gt;
+	&lt;<span class="s5">developers</span>&gt;
+		&lt;<span class="s5">developer</span>/&gt;
+	&lt;/<span class="s5">developers</span>&gt;
+	&lt;<span class="s5">scm</span>&gt;
+		&lt;<span class="s5">connection</span>/&gt;
+		&lt;<span class="s5">developerConnection</span>/&gt;
+		&lt;<span class="s5">tag</span>/&gt;
+		&lt;<span class="s5">url</span>/&gt;
+	&lt;/<span class="s5">scm</span>&gt;
+	&lt;<span class="s5">properties</span>&gt;
+		&lt;<span class="s5">java.version</span>&gt;21&lt;/<span class="s5">java.version</span>&gt;
+	&lt;/<span class="s5">properties</span>&gt;
+	&lt;<span class="s5">dependencies</span>&gt;
+		&lt;<span class="s5">dependency</span>&gt;
+			&lt;<span class="s5">groupId</span>&gt;org.springframework.boot&lt;/<span class="s5">groupId</span>&gt;
+			&lt;<span class="s5">artifactId</span>&gt;spring-boot-starter&lt;/<span class="s5">artifactId</span>&gt;
+		&lt;/<span class="s5">dependency</span>&gt;
+		&lt;<span class="s5">dependency</span>&gt;
+			&lt;<span class="s5">groupId</span>&gt;org.springframework.boot&lt;/<span class="s5">groupId</span>&gt;
+			&lt;<span class="s5">artifactId</span>&gt;spring-boot-starter-data-jpa&lt;/<span class="s5">artifactId</span>&gt;
+		&lt;/<span class="s5">dependency</span>&gt;
+		&lt;<span class="s5">dependency</span>&gt;
+			&lt;<span class="s5">groupId</span>&gt;org.springframework.boot&lt;/<span class="s5">groupId</span>&gt;
+			&lt;<span class="s5">artifactId</span>&gt;spring-boot-starter-data-rest&lt;/<span class="s5">artifactId</span>&gt;
+		&lt;/<span class="s5">dependency</span>&gt;
+		&lt;<span class="s5">dependency</span>&gt;
+			&lt;<span class="s5">groupId</span>&gt;org.springframework.boot&lt;/<span class="s5">groupId</span>&gt;
+			&lt;<span class="s5">artifactId</span>&gt;spring-boot-starter-thymeleaf&lt;/<span class="s5">artifactId</span>&gt;
+		&lt;/<span class="s5">dependency</span>&gt;
+		&lt;<span class="s5">dependency</span>&gt;
+			&lt;<span class="s5">groupId</span>&gt;org.springframework.boot&lt;/<span class="s5">groupId</span>&gt;
+			&lt;<span class="s5">artifactId</span>&gt;spring-boot-starter-web&lt;/<span class="s5">artifactId</span>&gt;
+		&lt;/<span class="s5">dependency</span>&gt;
+		&lt;<span class="s5">dependency</span>&gt;
+			&lt;<span class="s5">groupId</span>&gt;org.springframework.boot&lt;/<span class="s5">groupId</span>&gt;
+			&lt;<span class="s5">artifactId</span>&gt;spring-boot-devtools&lt;/<span class="s5">artifactId</span>&gt;
+			&lt;<span class="s5">scope</span>&gt;runtime&lt;/<span class="s5">scope</span>&gt;
+			&lt;<span class="s5">optional</span>&gt;true&lt;/<span class="s5">optional</span>&gt;
+		&lt;/<span class="s5">dependency</span>&gt;
+		&lt;<span class="s5">dependency</span>&gt;
+			&lt;<span class="s5">groupId</span>&gt;mysql&lt;/<span class="s5">groupId</span>&gt;
+			&lt;<span class="s5">artifactId</span>&gt;mysql-connector-java&lt;/<span class="s5">artifactId</span>&gt;
+			&lt;<span class="s5">version</span>&gt;8.0.33&lt;/<span class="s5">version</span>&gt; <span class="s6">&lt;!-- Use a stable version --&gt;</span>
+			&lt;<span class="s5">scope</span>&gt;runtime&lt;/<span class="s5">scope</span>&gt;
+		&lt;/<span class="s5">dependency</span>&gt;
+
+		&lt;<span class="s5">dependency</span>&gt;
+			&lt;<span class="s5">groupId</span>&gt;org.springframework.boot&lt;/<span class="s5">groupId</span>&gt;
+			&lt;<span class="s5">artifactId</span>&gt;spring-boot-starter-test&lt;/<span class="s5">artifactId</span>&gt;
+			&lt;<span class="s5">scope</span>&gt;test&lt;/<span class="s5">scope</span>&gt;
+		&lt;/<span class="s5">dependency</span>&gt;
+
+
+	&lt;<span class="s5">dependency</span>&gt;
+		&lt;<span class="s5">groupId</span>&gt;org.springframework.boot&lt;/<span class="s5">groupId</span>&gt;
+		&lt;<span class="s5">artifactId</span>&gt;spring-boot-starter-validation&lt;/<span class="s5">artifactId</span>&gt;
+	&lt;/<span class="s5">dependency</span>&gt;
+	&lt;/<span class="s5">dependencies</span>&gt;
+	&lt;<span class="s5">exclusions</span>&gt;
+		&lt;<span class="s5">exclusion</span>&gt;
+			&lt;<span class="s5">groupId</span>&gt;org.junit.vintage&lt;/<span class="s5">groupId</span>&gt;
+			&lt;<span class="s5">artifactId</span>&gt;junit-vintage-engine&lt;/<span class="s5">artifactId</span>&gt;
+		&lt;/<span class="s5">exclusion</span>&gt;
+	&lt;/<span class="s5">exclusions</span>&gt;
+
+
+	&lt;<span class="s5">build</span>&gt;
+		&lt;<span class="s5">plugins</span>&gt;
+			&lt;<span class="s5">plugin</span>&gt;
+				&lt;<span class="s5">groupId</span>&gt;org.springframework.boot&lt;/<span class="s5">groupId</span>&gt;
+				&lt;<span class="s5">artifactId</span>&gt;spring-boot-maven-plugin&lt;/<span class="s5">artifactId</span>&gt;
+			&lt;/<span class="s5">plugin</span>&gt;
+		&lt;/<span class="s5">plugins</span>&gt;
+	&lt;/<span class="s5">build</span>&gt;
+&lt;/<span class="s5">project</span>&gt;
+
+</pre>
+</body>
+</html>

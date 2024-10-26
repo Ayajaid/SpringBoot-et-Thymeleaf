@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>HELP.md</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #000080; font-weight: bold;}
+.s1 { color: #000000;}
+.s2 { color: #0000ff;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+HELP.md</font>
+</center></td></tr></table>
+<pre><span class="s0"># </span>Getting Started
+
+<span class="s0">### </span>Reference Documentation
+For further reference, please consider the following sections:
+
+<span class="s0">* </span>[Official Apache Maven documentation](<span class="s2">https://maven.apache.org/guides/index.html</span>)
+<span class="s0">* </span>[Spring Boot Maven Plugin Reference Guide](<span class="s2">https://docs.spring.io/spring-boot/3.3.5/maven-plugin</span>)
+<span class="s0">* </span>[Create an OCI image](<span class="s2">https://docs.spring.io/spring-boot/3.3.5/maven-plugin/build-image.html</span>)
+
+<span class="s0">### </span>Maven Parent overrides
+
+Due to Maven's design, elements are inherited from the parent POM to the project POM.
+While most of the inheritance is fine, it also inherits unwanted elements like `&lt;license&gt;` and `&lt;developers&gt;` from the parent.
+To prevent this, the project POM contains empty overrides for these elements.
+If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
+
+</pre>
+</body>
+</html>
